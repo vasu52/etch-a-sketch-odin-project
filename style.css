@@ -1,0 +1,20 @@
+body{
+    background-color: grey;
+}
+
+.container{
+    width: 60vw;
+    height: 90vh;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.box{
+    flex: 1;
+    background-color: white;
+    min-width: 10vw;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
